@@ -11,6 +11,8 @@
 # Need to Install this Dependency
 
 `yarn add react-native-shimmer
+
+
 cd ios && pod install`
 
 ### Mostly automatic installation
