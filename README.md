@@ -8,12 +8,17 @@
 
 `yarn add react-native-preloader-shimmer`
 
-# Other Dependency - Mostly auto install
+### Other Dependency - Mostly auto install
 
 `yarn add react-native-shimmer`
+
+and
+
 `cd ios && pod install`
 
-### If any error occur's
+### If any error occur's without installing react-native-shimmer
+
+if any error occur's without installing react-native-shimmer then 
 
 `yarn add react-native-shimmer`
 
@@ -28,7 +33,7 @@ const App = () => {
   return (
     <View style={{ flex: 1, backgroundColor: "white" }}>
       <MainLoader
-        barStyle={"dark-content"} //Status bar icon color -required filed
+        barStyle={"dark-content"} //Status bar icon color -required filed light-content or dark-content
         animSpeed={100} // Animation Run speed - default 100ms
         visible={true} //Visibility of MainLoader default true
         backgroundColor={"white"} // backgroundColor of main container default = #ffffff
