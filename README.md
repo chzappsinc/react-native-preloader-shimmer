@@ -1,6 +1,6 @@
 # react-native-preloader-shimmer
 
-## Getting started
+## Install packages
 
 `npm install react-native-preloader-shimmer --save`
 
@@ -8,22 +8,29 @@
 
 `yarn add react-native-preloader-shimmer`
 
-# Need to Install this Dependency
+# Other Dependency - Mostly auto install
 
 `yarn add react-native-shimmer`
 `cd ios && pod install`
 
-### Mostly automatic installation
+### If any error occur's
 
-`$ react-native link react-native-preloader-shimmer`
+`yarn add react-native-shimmer`
 
 ## Usage
 
 ```javascript
-import { BasicLoader } from "react-native-preloader-shimmer";
+import React from 'react'
+import { View, StyleSheet } from 'react-native';
+import { MainLoader } from 'react-native-preloader-shimmer'
 
-// TODO: What to do with the module?
-<View>
-  <BasicLoader />
-</View>;
+const App = () => {
+  return (
+    <View style={{ flex: 1, backgroundColor: 'white' }}>
+      <MainLoader barStyle={'dark-content'} animSpeed={100} visible={true} backgroundColor={'white'} />
+    </View>
+  )
+}
+
+export default App;
 ```
