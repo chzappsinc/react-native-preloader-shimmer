@@ -1,6 +1,6 @@
 # react-native-preloader-shimmer
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif)
 
 ## Install packages
 
