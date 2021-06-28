@@ -3,7 +3,9 @@
 ## Getting started
 
 `npm install @chzappsindia/react-native-loader --save`
-##or
+
+
+
 `yarn add @chzappsindia/react-native-loader`
 
 ### Mostly automatic installation
