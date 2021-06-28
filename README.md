@@ -1,7 +1,5 @@
 # react-native-preloader-shimmer
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
-
-![](https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif | width=100)
+<img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />
 
 ## Install packages
 
