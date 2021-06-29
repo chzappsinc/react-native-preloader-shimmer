@@ -152,3 +152,69 @@ export default App;
 | visible         | not requires | not requires | Boolean default is true    |
 
 # Full Example
+
+```javascript
+import React, { useEffect, useState } from 'react'
+import { View, Text, StyleSheet, Image } from 'react-native';
+import { ProfileLoader } from 'react-native-preloader-shimmer'
+const App = () => {
+
+  const [showLoader, setShowLoader] = useState(true)
+  const [data, setData] = useState([])
+
+  useEffect(() => {
+    setTimeout(() => {
+      getProfile() //---> Fetch may work fast ... this is for demo purpose
+    }, 2000);
+  }, [])
+
+  const getProfile = async () => {
+    /*
+    Usage of async function means here if will call only after first 2 function works
+    */
+    const ftch = await fetch('https://demo.chzapps.com/get-user-demo.json'); //----> May load fast
+    const json = await ftch.json()
+    if (json) {
+      setShowLoader(false) //This is for invisible Loader and visible other text and images
+      setData(json)
+    }
+  }
+
+  return (
+    <View style={{ backgroundColor: 'white', flex: 1 }}>
+      <View style={{ padding: 10 }}>
+        {/* Wrapped in View for padding 10 Default ProfileLoader not support style */}
+        {
+          showLoader ? <ProfileLoader
+            animSpeed={100} //----> Animation Speed default 100
+            visible={showLoader} //----> Visibility  true/false
+            backgroundColor={'white'} /> :
+            <View>
+              <Image
+                source={{ uri: data.profile }}
+                style={{ height: 50, width: 50 }} />
+              <Text style={styles.name}>Name : {data.name}</Text>
+              <Text style={styles.name}>Work : {data.workingtype}</Text>
+              <Text style={styles.name}>Age : {data.age}</Text>
+            </View>
+        }
+      </View>
+    </View>
+  )
+}
+
+//StyleSheet
+const styles = StyleSheet.create({
+  name: {
+    fontSize: 20,
+  }
+})
+
+export default App;
+
+/**
+ * this is only a demo purpose
+ * Fetched image was from internet
+ */
+
+```
