@@ -1,10 +1,10 @@
 # react-native-preloader-shimmer
 
-{Black} === backgroundColor black in demo images
+- Demo Images
 
-MainLoader         |  PageLoader    | PostLoader  {Black}       |  MainLoader Dark
+MainLoader         |  PageLoader    | PostLoader  {Black}       |  PostLoader
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/post_loader_dark.gif" width="auto" height="200" />
+<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/post_loader.gif" width="auto" height="200" />
 
 
 ## Install packages
@@ -145,7 +145,9 @@ export default App;
 
 # ProfileLoader
 
-<img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profile_loader.gif" width="auto" height="200" />
+ProfileLoader        |  ProfileLoader Dark
+:-------------------------:|:-------------------------:
+ <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader_dark.gif" width="auto" height="200" />
 
 
 
@@ -176,6 +178,11 @@ export default App;
 | visible         | not requires | not requires | Boolean default is true    |
 
 # Full Example
+
+- Fetching data from server 
+- After fetching success profileLoader will invisible
+
+<img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profile_loader.gif" width="auto" height="200" />
 
 ```javascript 
 import React, { useEffect, useState } from 'react'
