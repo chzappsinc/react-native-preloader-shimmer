@@ -74,7 +74,11 @@ import { PostLoader } from 'react-native-preloader-shimmer'
 const App = () => {
   return (
     <View style={{ flex: 1, backgroundColor: 'white' }}>
-      <PostLoader barStyle={'dark-content'} animSpeed={100} visible={true} backgroundColor={'white'} />
+      <PostLoader
+        barStyle={'dark-content'} //---> StatusBar Icon color 
+        animSpeed={100} //----> Animation Speed default 100
+        visible={true} //----> Visibility  
+        backgroundColor={'white'} />
     </View>
   )
 }
@@ -90,3 +94,58 @@ export default App;
 
 #PageLoader
 
+- PreBuild PageLoader for BlogPost / Terms and conditions fetching from internet 
+
+```javascript
+import React from 'react'
+import { View } from 'react-native';
+import { PageLoader } from 'react-native-preloader-shimmer'
+
+const App = () => {
+  return (
+    <View style={{ flex: 1, backgroundColor: 'white' }}>
+      <PageLoader
+        barStyle={'dark-content'} //----> StatusBar icon Color
+        animSpeed={100} //----> Animation Speed default 100
+        visible={true} //----> Visibility  true/false
+        backgroundColor={'white'} />
+    </View>
+  )
+}
+
+export default App;
+```
+| **NAME PROPS**  | **ANDROID**  | **IOS**      | **TYPE**                   |
+| --------------- | ------------ | ------------ | -------------------------- |
+| barStyle        | required     | required     | dark-content light-content |
+| animSpeed       | required     | required     | Number 1 - 1000            |
+| backgroundColor | not required | not required | Default - white #ffffff    |
+| visible         | not requires | not requires | Boolean default is true    |
+
+#ProfileLoader
+
+- PreBuild Loader for profile if it's empty or fetching
+
+```javascript
+import React from 'react'
+import { View } from 'react-native';
+import { ProfileLoader } from 'react-native-preloader-shimmer'
+
+const App = () => {
+  return (
+    <View style={{ padding: 10 }}>
+      <ProfileLoader
+        animSpeed={100} //----> Animation Speed default 100
+        visible={true} //----> Visibility  true/false
+        backgroundColor={'white'} />
+    </View>
+  )
+}
+
+export default App;
+```
+| **NAME PROPS**  | **ANDROID**  | **IOS**      | **TYPE**                   |
+| --------------- | ------------ | ------------ | -------------------------- |
+| animSpeed       | required     | required     | Number 1 - 1000            |
+| backgroundColor | not required | not required | Default - white #ffffff    |
+| visible         | not requires | not requires | Boolean default is true    |
