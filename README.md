@@ -27,6 +27,9 @@ if any error occur's without installing react-native-shimmer then
 
 ## Usage
 
+- Full page content background color will be also the statusBar color so please give a valid barStyle [light-content | dark-conent | default] for better UI desing 
+- BarStyle not required for profile loader or any short view
+
 * [MainLoader](#MainLoader)
 * [PostLoader](#PostLoader)
 * [PageLoader](#PageLoader)
