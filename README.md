@@ -1,8 +1,8 @@
 # react-native-preloader-shimmer
 
-MainLoader         |  MainLoader Dark
-:-------------------------:|:-------------------------:
-<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profile_loader.gif" width="100" height="200" />
+MainLoader         |  ProfileLoader {Black}    |MainLoader         |  MainLoader Dark
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profile_loader.gif" width="auto" height="200" />
 
 
 ## Install packages
@@ -30,10 +30,10 @@ if any error occur's without installing react-native-shimmer then
 - Full page content background color will be also the statusBar color so please give a valid barStyle [light-content | dark-conent | default] for better UI desing 
 - BarStyle not required for profile loader or any short view
 
-* [MainLoader](#MainLoader)
-* [PostLoader](#PostLoader)
-* [PageLoader](#PageLoader)
-* [ProfileLoader](#ProfileLoader)
+* [Main Loader](#MainLoader)
+* [Post Loader](#PostLoader)
+* [Page Loader](#PageLoader)
+* [Profile Loader](#ProfileLoader)
 * [Full Example](#full-example)
 
 # MainLoader
