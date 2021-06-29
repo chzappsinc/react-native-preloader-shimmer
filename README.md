@@ -1,8 +1,8 @@
 # react-native-preloader-shimmer
 
-MainLoader         |  ProfileLoader {Black}    |MainLoader         |  MainLoader Dark
+MainLoader         |  ProfileLoader {Black}    | Post Loader         |  MainLoader Dark
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profile_loader.gif" width="auto" height="200" />
+<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profile_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/post_loader.gif" width="auto" height="200" />
 
 
 ## Install packages
@@ -72,6 +72,8 @@ export default App;
 
 
 # PostLoader
+
+ <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/post_loader.gif" width="auto" height="200" />
 
 - Make a Loader for your post like facebook
 
