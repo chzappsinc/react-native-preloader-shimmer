@@ -16,7 +16,7 @@ MainLoader         |  PageLoader    | PostLoader     |  Profile Loader
 
 ## Install packages
 
-`npm install react-native-preloader-shimmer --save`
+``npm install react-native-preloader-shimmer --save``
 
 `yarn add react-native-preloader-shimmer`
 
