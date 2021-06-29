@@ -92,7 +92,7 @@ export default App;
 | backgroundColor | not required | not required | Default - white #ffffff    |
 | visible         | not requires | not requires | Boolean default is true    |
 
-#PageLoader
+# PageLoader
 
 - PreBuild PageLoader for BlogPost / Terms and conditions fetching from internet 
 
@@ -122,7 +122,7 @@ export default App;
 | backgroundColor | not required | not required | Default - white #ffffff    |
 | visible         | not requires | not requires | Boolean default is true    |
 
-#ProfileLoader
+# ProfileLoader
 
 - PreBuild Loader for profile if it's empty or fetching
 
