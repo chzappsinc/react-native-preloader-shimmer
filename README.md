@@ -133,7 +133,7 @@ export default App;
 
 # ProfileLoader
 
-<img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profile_loader.gif" width="100" height="200" />
+<img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profile_loader.gif" width="300" height="200" />
 
 
 
