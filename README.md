@@ -31,6 +31,7 @@ if any error occur's without installing react-native-shimmer then
 * [PostLoader](#PostLoader)
 * [PageLoader](#PageLoader)
 * [ProfileLoader](#ProfileLoader)
+* [Full Example](#Full Example)
 
 # MainLoader
 ```javascript
@@ -149,3 +150,5 @@ export default App;
 | animSpeed       | required     | required     | Number 1 - 1000            |
 | backgroundColor | not required | not required | Default - white #ffffff    |
 | visible         | not requires | not requires | Boolean default is true    |
+
+# Full Example
