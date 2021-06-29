@@ -2,7 +2,7 @@
 
 MainLoader         |  MainLoader Dark
 :-------------------------:|:-------------------------:
-<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />|  <img src="https://demo.chzapps.com/assets/main_dark_ex.gif" width="100" height="200" />
+<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profile_loader.gif" width="100" height="200" />
 
 
 ## Install packages
@@ -132,6 +132,10 @@ export default App;
 | visible         | not requires | not requires | Boolean default is true    |
 
 # ProfileLoader
+
+<img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profile_loader.gif" width="100" height="200" />
+
+
 
 - PreBuild Loader for profile if it's empty or fetching
 
