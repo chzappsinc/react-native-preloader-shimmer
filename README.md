@@ -1,8 +1,8 @@
 # react-native-preloader-shimmer
 
-Solarized dark             |  Solarized Ocean
+MainLoader         |  PostLoader
 :-------------------------:|:-------------------------:
-<img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />)  |  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />
+<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />) |  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />
 
 
 ## Install packages
