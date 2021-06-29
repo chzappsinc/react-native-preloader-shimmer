@@ -27,6 +27,10 @@ if any error occur's without installing react-native-shimmer then
 
 ## Usage
 
+* [MainLoader](#MainLoader)
+  
+
+# MainLoader
 ```javascript
 import React from "react";
 import { View, StyleSheet } from "react-native";
