@@ -34,6 +34,7 @@ if any error occur's without installing react-native-shimmer then
 * [Full Example](#full-example)
 
 # MainLoader
+<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="150" />
 ```javascript
 import React from "react";
 import { View, StyleSheet } from "react-native";
