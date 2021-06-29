@@ -28,7 +28,9 @@ if any error occur's without installing react-native-shimmer then
 ## Usage
 
 * [MainLoader](#MainLoader)
-  
+* [PostLoader](#PostLoader)
+* [PageLoader](#PageLoader)
+* [ProfileLoader](#ProfileLoader)
 
 # MainLoader
 ```javascript
@@ -58,3 +60,24 @@ export default App;
 | animSpeed       | required     | required     | Number 1 - 1000            |
 | backgroundColor | not required | not required | Default - white #ffffff    |
 | visible         | not requires | not requires | Boolean default is true    |
+
+
+# PostLoader
+
+- Make a Loader for your post like facebook
+
+```javascript
+import React from 'react'
+import { View } from 'react-native';
+import { PostLoader } from 'react-native-preloader-shimmer'
+
+const App = () => {
+  return (
+    <View style={{ flex: 1, backgroundColor: 'white' }}>
+      <PostLoader barStyle={'dark-content'} animSpeed={100} visible={true} backgroundColor={'white'} />
+    </View>
+  )
+}
+
+export default App;
+```
