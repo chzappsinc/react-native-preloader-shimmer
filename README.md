@@ -153,7 +153,7 @@ export default App;
 
 # Full Example
 
-```jsx
+```javascript 
 import React, { useEffect, useState } from 'react'
 import { View, Text, StyleSheet, Image } from 'react-native';
 import { ProfileLoader } from 'react-native-preloader-shimmer'
