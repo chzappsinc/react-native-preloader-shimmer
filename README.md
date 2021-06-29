@@ -1,8 +1,8 @@
 # react-native-preloader-shimmer
 
-MainLoader         |  PostLoader
+MainLoader         |  MainLoader Dark
 :-------------------------:|:-------------------------:
-<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />
+<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />|  <img src="https://demo.chzapps.com/assets/main_dark_ex.gif" width="100" height="200" />
 
 
 ## Install packages
@@ -37,7 +37,9 @@ if any error occur's without installing react-native-shimmer then
 * [Full Example](#full-example)
 
 # MainLoader
-<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />
+MainLoader         |  MainLoader Dark
+:-------------------------:|:-------------------------:
+<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />|  <img src="https://demo.chzapps.com/assets/main_dark_ex.gif" width="100" height="200" />
 
 
 ```javascript
