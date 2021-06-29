@@ -110,6 +110,11 @@ export default App;
 
 # PageLoader
 
+PostLoader         |  PageLoader Dark
+:-------------------------:|:-------------------------:
+ <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader_dark.gif" width="100" height="200" />
+
+
 - PreBuild PageLoader for BlogPost / Terms and conditions fetching from internet 
 
 ```javascript
