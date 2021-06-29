@@ -2,7 +2,7 @@
 
 - Demo Images
 
-MainLoader         |  PageLoader    | PostLoader  {Black}       |  Profile Loader
+MainLoader         |  PageLoader    | PostLoader     |  Profile Loader
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 <img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/post_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profileLoader.gif" width="350" height="200" />
 
