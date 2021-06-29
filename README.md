@@ -2,9 +2,9 @@
 
 - Demo Images
 
-MainLoader         |  PageLoader    | PostLoader  {Black}       |  PostLoader
+MainLoader         |  PageLoader    | PostLoader  {Black}       |  Profile Loader
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/post_loader.gif" width="100" height="200" />
+<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profileLoader.gif" width="350" height="200" />
 
 
 ## Install packages
@@ -110,7 +110,7 @@ export default App;
 
 # PageLoader
 
-PostLoader         |  PageLoader Dark
+PageLoader         |  PageLoader Dark
 :-------------------------:|:-------------------------:
  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader_dark.gif" width="100" height="200" />
 
@@ -147,7 +147,7 @@ export default App;
 
 ProfileLoader        |  ProfileLoader Dark
 :-------------------------:|:-------------------------:
- <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader_dark.gif" width="auto" height="200" />
+ <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profileLoader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profileLoader_dark.gif" width="auto" height="200" />
 
 
 
