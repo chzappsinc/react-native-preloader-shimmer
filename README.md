@@ -31,7 +31,7 @@ if any error occur's without installing react-native-shimmer then
 * [PostLoader](#PostLoader)
 * [PageLoader](#PageLoader)
 * [ProfileLoader](#ProfileLoader)
-* [Full Example](#Full Example)
+* [Full Example](#full-example)
 
 # MainLoader
 ```javascript
