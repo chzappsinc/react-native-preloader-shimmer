@@ -39,13 +39,13 @@ if any error occur's without installing react-native-shimmer then
 - Full page content background color will be also the statusBar color so please give a valid barStyle [light-content | dark-conent | default] for better UI desing 
 - BarStyle not required for profile loader or any short view
 
-* [Main Loader](#MainLoader)
-* [Post Loader](#PostLoader)
-* [Page Loader](#PageLoader)
-* [Profile Loader](#ProfileLoader)
+* [Main Loader](#main-loder)
+* [Post Loader](#post-loader)
+* [Page Loader](#page-loader)
+* [Profile Loader](#profile-loader)
 * [Full Example](#full-example)
 
-# MainLoader
+# Main Loader
 MainLoader         |  MainLoader Dark
 :-------------------------:|:-------------------------:
 <img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="100" height="200" />|  <img src="https://demo.chzapps.com/assets/main_dark_ex.gif" width="100" height="200" />
@@ -80,7 +80,7 @@ export default App;
 | visible         | not requires | not requires | Boolean default is true    |
 
 
-# PostLoader
+# Post Loader
 
 PostLoader         |  PostLoader Dark
 :-------------------------:|:-------------------------:
@@ -115,7 +115,7 @@ export default App;
 | backgroundColor | not required | not required | Default - white #ffffff    |
 | visible         | not requires | not requires | Boolean default is true    |
 
-# PageLoader
+# Page Loader
 
 PageLoader         |  PageLoader Dark
 :-------------------------:|:-------------------------:
@@ -150,7 +150,7 @@ export default App;
 | backgroundColor | not required | not required | Default - white #ffffff    |
 | visible         | not requires | not requires | Boolean default is true    |
 
-# ProfileLoader
+# Profile Loader
 
 ProfileLoader        |  ProfileLoader Dark
 :-------------------------:|:-------------------------:
