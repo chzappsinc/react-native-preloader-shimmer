@@ -3,7 +3,7 @@
 ---
 ***💌 Message***
 
-This library is not marinated anymore!!
+This library is not maintained anymore!!
 
 ---
 
