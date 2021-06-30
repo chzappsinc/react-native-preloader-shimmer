@@ -5,7 +5,7 @@
 
 Interested in maintain this library ?
 
-[Main Loader](#read-me)
+[Read me](#read-me)
 
 ---
 
