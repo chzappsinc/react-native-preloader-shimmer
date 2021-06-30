@@ -1,17 +1,23 @@
 # react-native-preloader-shimmer
 
 ---
-**💌 Message**
+***💌 Message***
 
-We are making new more content as soon as possible
+This library is not marinated anymore!!
 
 ---
 
 - Demo Images
 
-MainLoader         |  PageLoader    | PostLoader     |  Profile Loader
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/post_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profileLoader.gif" width="auto" height="200" />
+MainLoader         |  PageLoader    | PostLoader     
+:-------------------------:|:-------------------------:|:-------------------------:|
+<img alt='MainLoader' src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/item_final.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/post_loader.gif" width="auto" height="200" />
+
+
+**Profile Loader**
+
+
+ <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profileLoader.gif" width="350" height="200" />
 
 
 ## Install packages
@@ -20,7 +26,7 @@ MainLoader         |  PageLoader    | PostLoader     |  Profile Loader
 
 `yarn add react-native-preloader-shimmer`
 
-**Demo Video: ** https://youtu.be/SUkDm3pXmuw
+**Demo Video : ** https://youtu.be/SUkDm3pXmuw
 
 ### Other Dependency - Mostly auto install
 
@@ -30,15 +36,15 @@ and
 
 `cd ios && pod install`
 
-### If any error occurs without installing react-native-shimmer
+### If any error occur's without installing react-native-shimmer
 
-if any error occurs without installing react-native-shimmer then 
+if any error occur's without installing react-native-shimmer then 
 
 `yarn add react-native-shimmer`
 
 ## Usage
 
-- Full page content background color will be also the statusBar color so please give a valid barStyle [light-content | dark-conent | default] for better UI design 
+- Full page content background color will be also the statusBar color so please give a valid barStyle [light-content | dark-conent | default] for better UI desing 
 - BarStyle not required for profile loader or any short view
 
 * [Main Loader](#main-loder)
@@ -86,10 +92,10 @@ export default App;
 
 PostLoader         |  PostLoader Dark
 :-------------------------:|:-------------------------:
- <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/post_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/post_loader_dark.gif" width="auto" height="200" />
+ <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/post_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/post_loader_dark.gif" width="100" height="200" />
 
 
-- Make a Loader for your post like Facebook
+- Make a Loader for your post like facebook
 
 ```javascript
 import React from 'react'
@@ -124,7 +130,7 @@ PageLoader         |  PageLoader Dark
  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/page_loader_dark.gif" width="100" height="200" />
 
 
-- PreBuild PageLoader for BlogPost / Terms and conditions fetching from the internet 
+- PreBuild PageLoader for BlogPost / Terms and conditions fetching from internet 
 
 ```javascript
 import React from 'react'
@@ -154,9 +160,12 @@ export default App;
 
 # Profile Loader
 
-ProfileLoader        |  ProfileLoader Dark
-:-------------------------:|:-------------------------:
- <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profileLoader.gif" width="auto" height="200" />|  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profileLoader_dark.gif" width="auto" height="200" />
+ProfileLoader    
+<img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profileLoader.gif" width="auto" height="200" />
+
+
+ ProfileLoader Dark
+  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profileLoader_dark.gif" width="auto" height="200" />
 
 
 
@@ -188,10 +197,10 @@ export default App;
 
 # Full Example
 
-- Fetching data from the server 
-- After fetching the success profile loader will invisible
+- Fetching data from server 
+- After fetching success profileLoader will invisible
 
-<img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profile_loader.gif" width="auto" height="150" />
+<img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profile_loader.gif" width="auto" height="200" />
 
 ```javascript 
 import React, { useEffect, useState } from 'react'
@@ -253,9 +262,8 @@ const styles = StyleSheet.create({
 export default App;
 
 /**
- * This is only a demo purpose
- * Fetched image was from the internet
+ * this is only a demo purpose
+ * Fetched image was from internet
  */
 
 ```
-B
