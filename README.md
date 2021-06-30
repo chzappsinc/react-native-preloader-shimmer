@@ -5,6 +5,8 @@
 
 This library is not maintained anymore!!
 
+[Main Loader](#read-me)
+
 ---
 
 - Demo Images
@@ -52,6 +54,7 @@ if any error occur's without installing react-native-shimmer then
 * [Page Loader](#page-loader)
 * [Profile Loader](#profile-loader)
 * [Full Example](#full-example)
+* [Read Me](#read-me)
 
 # Main Loader
 MainLoader         |  MainLoader Dark
@@ -266,3 +269,9 @@ export default App;
  */
 
 ```
+
+# Read Me
+
+Anyone who can maintian this libarary please contact us on support@chzapps.com
+
+Download file : 
