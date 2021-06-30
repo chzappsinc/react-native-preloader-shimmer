@@ -160,12 +160,11 @@ export default App;
 
 # Profile Loader
 
-ProfileLoader    
+### ProfileLoader    
 <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profileLoader.gif" width="auto" height="200" />
 
-
- ProfileLoader Dark
-  <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profileLoader_dark.gif" width="auto" height="200" />
+### ProfileLoader Dark
+ <img src="https://raw.githubusercontent.com/chzappsinc/react-native-preloader-shimmer/main/demo_gif/profileLoader_dark.gif" width="auto" height="200" />
 
 
 
