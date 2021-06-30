@@ -28,7 +28,6 @@ MainLoader         |  PageLoader    | PostLoader
 
 `yarn add react-native-preloader-shimmer`
 
-**Demo Video : ** https://youtu.be/SUkDm3pXmuw
 
 ### Other Dependency - Mostly auto install
 
