@@ -274,4 +274,7 @@ export default App;
 
 Anyone who can maintian this libarary please contact us on support@chzapps.com
 
-Download file : 
+- Easy to maintian 
+- Easy to use
+
+[Read here for more details](https://www.google.com "LIB INFO HOW TO MAINTIAN")
