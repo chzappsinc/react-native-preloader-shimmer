@@ -146,6 +146,7 @@ const App = () => {
         barStyle={'dark-content'} //----> StatusBar icon Color
         animSpeed={100} //----> Animation Speed default 100
         visible={true} //----> Visibility  true/false
+        includeProfile={true} //---> Hide 2 profile shimmer
         backgroundColor={'white'} />
     </View>
   )
@@ -155,6 +156,7 @@ export default App;
 ```
 | **NAME PROPS**  | **ANDROID**  | **IOS**      | **TYPE**                   |
 | --------------- | ------------ | ------------ | -------------------------- |
+| includeProfile  | not required | not required | true/ false                |
 | barStyle        | required     | required     | dark-content light-content |
 | animSpeed       | required     | required     | Number 1 - 1000            |
 | backgroundColor | not required | not required | Default - white #ffffff    |
