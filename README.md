@@ -8,6 +8,7 @@ Interested in maintain this library ?
 [Read me](#read-me)
 
 ---
+<img alt='badge' src='https://img.shields.io/github/issues/chzappsinc/react-native-preloader-shimmer'/>
 
 - Demo Images
 
