@@ -1,16 +1,8 @@
 # react-native-preloader-shimmer
 
----
-***💌 Message***
-
-Interested in maintain this library ?
-
-[Read me](#read-me)
-
----
 <img alt='badge' src='https://img.shields.io/github/issues/chzappsinc/react-native-preloader-shimmer'/>
 
-- Demo Images
+- Demo Screens
 
 MainLoader         |  PageLoader    | PostLoader     
 :-------------------------:|:-------------------------:|:-------------------------:|
@@ -271,12 +263,3 @@ export default App;
  */
 
 ```
-
-# Read Me
-
-Anyone who can maintian this libarary please contact us on support@chzapps.com
-
-- Easy to maintian 
-- Easy to use
-
-[File Repo](https://github.com/chzappsinc/react-native-preloader-shimmer-maintain)
